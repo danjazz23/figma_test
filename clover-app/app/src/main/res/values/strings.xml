@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clover App</string>
+    <string name="whatsapp_contact">Contactar por WhatsApp</string>
+    <string name="ancla_flex">Ancla Flex</string>
+    <string name="ancla_go">Ancla Go</string>
+    <string name="ancla_caracteristicas">Ancla Características</string>
+    <string name="ancla_escribenos">Ancla Escribenos</string>
+</resources>

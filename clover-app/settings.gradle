@@ -1,0 +1,2 @@
+rootProject.name = "Clover App"
+include ':app'

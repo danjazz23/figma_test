@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context=".MainActivity">
+
+    <!-- Sección principal /bravus -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Ancla Flex -->
+            <TextView
+                android:id="@+id/textAnclaFlex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ancla Flex"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Flecha 1 (decorativa) -->
+            <View
+                android:layout_width="242dp"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Espacio para contenido -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3000dp"/>
+
+            <!-- Ancla Go -->
+            <TextView
+                android:id="@+id/textAnclaGo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ancla Go"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Flecha 2 (decorativa) -->
+            <View
+                android:layout_width="242dp"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:rotation="180"/>
+
+            <!-- Espacio para contenido -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2000dp"/>
+
+            <!-- Ancla Características -->
+            <TextView
+                android:id="@+id/textAnclaCaracteristicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ancla Características"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Flecha 3 (decorativa) -->
+            <View
+                android:layout_width="242dp"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Espacio para contenido -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"/>
+
+            <!-- Ancla Escribenos -->
+            <TextView
+                android:id="@+id/textAnclaEscribenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ancla Escribenos"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Flecha 4 (decorativa) -->
+            <View
+                android:layout_width="242dp"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:rotation="180"/>
+
+            <!-- Botón de WhatsApp -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonWhatsApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contactar por WhatsApp"
+                android:textSize="16sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="16dp"
+                app:backgroundTint="@color/clover_green"
+                app:cornerRadius="8dp"/>
+
+            <!-- Espacio final -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
